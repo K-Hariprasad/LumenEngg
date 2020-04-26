@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+/* remove the img element to crop the image, adjust the height suitably */
+.carousel-item > img{
+  max-height: 400px ;
+}
