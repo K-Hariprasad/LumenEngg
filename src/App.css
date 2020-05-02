@@ -40,3 +40,66 @@
 .carousel-item > img{
   max-height: 400px ;
 }
+/* contact us */
+.border-bottom {
+  /* border-top: 0;
+  border-left: 0;
+  border-right: 0;  */
+  border:0;
+  border-radius: 0%;
+  box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+textarea {
+  resize: none;
+}
+.padding {
+  padding: 3% 5% 3% 8%;
+}
+.padding-right {
+  padding: 3% 8% 3% 5%;
+}
+
+/* navbar component related */
+.Mynavbar{
+    position:sticky;
+    top:0;
+    z-index: 1;
+}
+
+/* footer related, always at the end */
+ html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+ padding-bottom: 15rem;
+  min-height: 100%;
+}
+
+.footer {
+  height: 15rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #3e4551;
+  text-align: center;
+  margin-bottom: 0;
+}
+.footer-inside {
+  background-color: #3e4551;
+}
+.footer-copyright{
+  background-color: rgba(0,0,0,0.2);
+}
+
+

@@ -8,9 +8,9 @@ import Contact from './ContactUs'
 class Navbar extends Component {
   render() {
     return (
-      <div>
+      <div className="content">
 
-<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav className="Mynavbar navbar navbar-expand-lg navbar-dark bg-dark">
   <a className="navbar-brand" href="/">LOGO</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
     <span className="navbar-toggler-icon"></span>

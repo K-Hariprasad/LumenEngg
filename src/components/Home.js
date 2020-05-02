@@ -1,12 +1,18 @@
 import React from "react"
 import Carousel from './Carousel';
+import About from "./AboutUs";
+import Contact from "./ContactUs";
 
 class Home extends React.Component{
     render(){
         return(
+            <React.Fragment>
+                <Carousel/>
+            <About/>
+            <Contact/>
 
-            // <h3 className="text-center text-danger">This is home page</h3>
-            <Carousel/>
+            </React.Fragment>
+            
         )
     }
 }
